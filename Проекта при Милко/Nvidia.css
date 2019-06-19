@@ -1,0 +1,84 @@
+body{
+    
+    background-image:url("triangles5.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin:0;
+}
+
+.main_box{
+    margin-right:0px;
+    margin-left:0px; 
+    height: 80px;
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(60deg, #2cff3c 50%, #868686 50%);
+    position: relative;
+}
+.head_2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    right:15px;
+    top:30px;
+    color:rgb(0, 0, 0);
+    opacity: 0.6;
+}
+
+#h1_main{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    position: absolute;
+    top:0;
+    left: 15px;
+    color: #ededed;
+}
+
+.menu_box{
+    top: 0;
+    width:100%;
+    position:sticky;
+    margin:0;
+    height:40px;
+    background-color:rgb(54, 54, 54)
+}
+
+.block{
+    letter-spacing: 1px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    float:left;
+    border:1px solid black;
+    padding:9px;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration:none;
+    color:orange;
+}
+
+a:visited{
+    color:white;
+}
+a:hover{
+    color:#2cff3c;
+}
+.writing{
+    border:1px solid #fff;
+    margin-right: 300px;
+    margin-left:300px; 
+    height: auto;
+    background-color: white;
+    border-radius:15px;
+}
+#h1_writing{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+
+}
+#p_writing{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: left;
+    padding-bottom: 5px;
+
+}
